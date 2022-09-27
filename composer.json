@@ -1,0 +1,30 @@
+{
+  "name": "garagist/mautic-api-bundle",
+  "description": "Garagist API Bundle",
+  "type": "mautic-plugin",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "mautic",
+    "plugin",
+    "integration"
+  ],
+  "extra": {
+    "install-directory-name": "GaragistMauticApiBundle"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "mautic/core-lib": "^4.0"
+  },
+  "authors": [
+        {
+            "name": "Jon Uhlmann",
+            "email": "hello@uhlmann.pro",
+            "homepage": "https://www.uhlmann.pro",
+            "role": "Developer"
+        },
+        {
+            "name": "David Spiola",
+            "role": "Developer"
+        }
+    ]
+}
