@@ -4,7 +4,6 @@ namespace MauticPlugin\GaragistMauticApiBundle\Controller\Api;
 
 use Mautic\ApiBundle\Controller\CommonApiController;
 use Symfony\Component\HttpFoundation\Response;
-use Mautic\CoreBundle\Model\AbstractCommonModel;
 
 class EmailApiController extends CommonApiController
 {
@@ -81,17 +80,5 @@ class EmailApiController extends CommonApiController
         );
 
         return $this->handleView($view);
-    }
-
-    /**
-     * Get a model instance from the service container.
-     *
-     * @param $modelNameKey
-     *
-     * @return AbstractCommonModel
-     */
-    protected function getModel($modelNameKey)
-    {
-        return $this->get('mautic.model.factory')->getModel($modelNameKey);
     }
 }
